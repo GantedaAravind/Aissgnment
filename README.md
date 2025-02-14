@@ -58,8 +58,8 @@ This is a simple **user authentication API** built with **Express.js**, **MongoD
 ### 1️⃣ **Clone the Repository**
 
 ```sh
-git clone https://github.com/your-github-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/GantedaAravind/Aissgnment.git
+cd Aissgnment
 ```
 
 ### 2️⃣ **Install Dependencies**
@@ -76,7 +76,6 @@ Create a `.env` file and add the following:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-NODE_ENV=development
 ```
 
 ### 4️⃣ **Run the Server**
@@ -201,11 +200,10 @@ The API will be running on **http://localhost:5000**.
 
 ## 🛠️ Postman Testing Guide
 
-1. **Register a user** → `POST /api/users/register`
-2. **Login** → `POST /api/auth/login` (Copy the `auth_token` from cookies)
-3. **Search user** → `GET /api/users/search?search=username_or_email`
-4. **Access Profile** → `GET /api/users/profile` (Send request with `auth_token` in cookies)
-5. **Logout** → `POST /api/auth/logout`
+1. **Register a user** → `POST /user/signup`
+2. **Login** → `POST /user/login` (Copy the `auth_token` from cookies)
+3. **Search user** → `GET /user/search?search=username_or_email`
+4. **Logout** → `POST /user/logout`
 
 ---
 
@@ -226,18 +224,12 @@ The API will be running on **http://localhost:5000**.
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
 ## 📞 Contact
 
 For any queries or contributions, feel free to connect:
 
-- **GitHub:** [your-github-username](https://github.com/your-github-username)
-- **Email:** your-email@example.com
+- **GitHub:** [GantedaAravind](https://github.com/GantedaAravind/)
+- **Email:** aravindganteda@gmail.com -**PHONE:** 7993425684
 
 ---
 
@@ -253,6 +245,4 @@ For any queries or contributions, feel free to connect:
 ✅ **Installation steps**
 ✅ **Proper project structure**
 ✅ **Security considerations**
-
-This README will make it **easy to set up, run, and understand your project**. 🚀
 ```
